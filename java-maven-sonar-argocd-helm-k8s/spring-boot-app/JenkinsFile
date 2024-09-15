@@ -48,7 +48,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "CopyOfAVJenkins_ArgoCD"
+            GIT_REPO_NAME = "Jenkins_Maven"
             GIT_USER_NAME = "adwognura"
         }
         steps {
